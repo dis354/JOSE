@@ -31,7 +31,7 @@ public class NumerosDesafotunados {
 		System.out.print(entrada + ":");
 		for (int i = (Listado.size() - 1); i >= 0; i--) {
 			if (i != 0) {
-				System.out.print(Listado.get(i));
+				System.out.print(Listado.get(i)+" ");
 			} else {
 				System.out.print(Listado.get(i));
 			}
